@@ -9,7 +9,7 @@ on:
 
 env:
   # default compiler for all non-compatibility tests
-  MATRIX_EVAL: "CC=gcc-9 && CXX=g++-9"
+  MATRIX_EVAL: "CC=gcc-8 && CXX=g++-8"
 
 jobs:
 
